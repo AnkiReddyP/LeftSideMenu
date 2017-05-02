@@ -20,6 +20,7 @@ class LeftMenuTableView: UITableViewController {
         leftIconImagesArray = ["Home","Message","Notifications","Gallery","Map","Settings"]
         
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
