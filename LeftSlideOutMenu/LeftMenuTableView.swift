@@ -44,7 +44,7 @@ class LeftMenuTableView: UITableViewController {
         cell.leftMenuLabel.text = leftMenuNamesArray[indexPath.row]
         cell.leftMenuImage.image = UIImage(named: leftIconImagesArray[indexPath.row] + ".png")
         cell.leftMenuImage.layer.borderColor = UIColor.red.cgColor
-        cell.leftMenuImage.layer.borderWidth = 1
+        cell.leftMenuImage.layer.borderWidth = 0.5
         cell.leftMenuImage.layer.cornerRadius = 25
         cell.leftMenuImage.layer.masksToBounds = false
         cell.leftMenuImage.clipsToBounds = true
